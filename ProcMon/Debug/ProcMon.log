@@ -1,0 +1,36 @@
+﻿Build started 19-06-2018 05:21:14.
+     1>Project "C:\Users\shubham\Desktop\ProcMon\ProcMon\ProcMon.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ProcMon.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHs /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MainFile.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         MainFile.cpp
+     1>MainFile.cpp(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>MainFile.cpp(272): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>MainFile.cpp(377): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>MainFile.cpp(550): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\shubham\desktop\procmon\procmon\mainfile.cpp(475): warning C4715: 'ProcessInfo::KillProcess' : not all control paths return a value
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shubham\Desktop\ProcMon\Debug\ProcMon.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ProcMon.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\shubham\Desktop\ProcMon\Debug\ProcMon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shubham\Desktop\ProcMon\Debug\ProcMon.lib" /MACHINE:X86 Debug\ProcMon.exe.embed.manifest.res
+         Debug\MainFile.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ProcMon.exe.embed.manifest" /manifest Debug\ProcMon.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ProcMon.vcxproj -> C:\Users\shubham\Desktop\ProcMon\Debug\ProcMon.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ProcMon.unsuccessfulbuild".
+         Touching "Debug\ProcMon.lastbuildstate".
+     1>Done Building Project "C:\Users\shubham\Desktop\ProcMon\ProcMon\ProcMon.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
